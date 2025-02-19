@@ -98,11 +98,11 @@ li {
     margin: 10px auto;
     border-radius: 8px;
     box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.2); 
-    transition: 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 .movie_post:hover {
-    transform: scale(2.50); 
+    transform: scale(1.1); 
 }
 
 @media (max-width: 768px) {
